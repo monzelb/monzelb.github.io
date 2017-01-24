@@ -10,11 +10,23 @@
 
 li {
 	padding: 20px;
-	float: right;
 	text-decoration: none;
 	margin: 20px;
 	border: 2px solid white;
-	background-color: rgba(255, 255, 255, .25);
+	background-color: rgba(255, 255, 255, .15);
+	text-align: center;
+}
+
+.options {
+	margin: 100px;
+	padding: 100px;
+	border: none;
+	color: white;
+	font-size: 20px;
+}
+
+.right {
+	float: right;
 }
 
 ul {
@@ -32,7 +44,7 @@ list-style-type: none;
 }
 
 li:hover {
-	background: white;
+	background-color: rgba(255, 255, 255, 0.25);
 }
 
 nav {
@@ -88,13 +100,11 @@ img {
 
 }
 
-p {
-	position: absolute;
-	bottom: 0;
-}
-
 .middle {
 	position: absolute;
-	bottom: 0;
+	left:0;
+	right:0;
+	margin-left:auto;
+	margin-right:auto;
 }
 
