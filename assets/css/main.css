@@ -116,9 +116,10 @@ img {
 }
 
 
-.top-buttons {
+.top-buttons, .bottom-buttons{
 	padding: 0;
 	color: black;
+	display: block;
 }
 
 	
@@ -135,5 +136,7 @@ img {
 footer {
 	padding: 30px;
 }
+
+
 
 
