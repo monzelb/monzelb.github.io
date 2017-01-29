@@ -9,11 +9,19 @@ $( document ).ready(function() {
 });*/
 
 $(".right").hover(function(){
-    $(this).css("background-color", "pink");
+    $(this).css("background-color", "mistyrose");
     }, function(){
     $(this).css("background-color", "rgba(255, 255, 255, 0.15)");
+  
 });
 
+$(".mid-buttons").mouseover(function(){
+    $(this).css("color", "black");
+});
+
+$(".mid-buttons").mouseout(function(){
+    $(this).css("color", "white");
+});
 
 $(".options").hover(function(){
 	$(this).addClass("show-gif");

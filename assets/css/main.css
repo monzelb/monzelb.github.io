@@ -1,6 +1,6 @@
 	body {
 	animation: pulse 3s infinite alternate;
-	font-family: "Karla","helvetica",sans-serif;
+	font-family: sans-serif;
 	font-weight: 700;
 	font-size: .75rem;
 	color: #111;
@@ -50,8 +50,8 @@ a {
 	float: left;
 	padding: 15px;
 	background: #D4E7F0;
-	margin: 20px;s
-	font-size: 14px;
+	margin: 20px;
+	
 	
 }
 
@@ -140,9 +140,7 @@ footer {
 
 }
 
-.projects {
-	height: 100vh;
-}
+
 
 }
 .change-buttons { 
