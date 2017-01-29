@@ -9,14 +9,17 @@
 
 
 li {
+
 	text-decoration: none;
 	margin: 15px;
 	border: 2px solid white;
 	background-color: rgba(255, 255, 255, .15);
 	text-align: center;
+	
 }
 
 a { 
+	
 	color: white;
 	text-decoration: none;
 	display: block;
@@ -25,16 +28,21 @@ a {
 }
 
 .options {
-	margin: 100px 115px;
 
+	margin: 100px 115px;
+	
 	border: none;
 	color: white;
 	font-size: 20px;
+	
+
 }
 
 .right {
 	float: right;
 	padding: 15px;
+	
+
 }
 
 .left, .links {
@@ -44,6 +52,7 @@ a {
 	background: #D4E7F0;
 	margin: 20px;s
 	font-size: 14px;
+	
 }
 
 ul {
@@ -53,14 +62,6 @@ list-style-type: none;
 }
 
 
-
-.options:hover {
-	background-color: rgba(255, 255, 255, 0.27);
-}
-
-.right:hover { 
-	background-color: rgba(255, 255, 255, 0.5);
-}
 
 nav {
 	border: 2px solid white;
@@ -134,9 +135,28 @@ img {
 }
 
 footer {
-	padding: 30px;
+	padding: 5px;
+	clear: both;
+
 }
 
+.projects {
+	height: 100vh;
+}
 
+}
+.change-buttons { 
+color: black;
+ }
+
+ .show-gif {
+ 	filter: invert(100%);
+	background-image: url("../imgs/giphy.gif"); 
+	opacity: .32;
+	background-repeat: no-repeat;
+	background-size: 100% 130%;
+	overflow: hidden ;
+	
+ }
 
 
