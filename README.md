@@ -1,7 +1,7 @@
 <snippet>
   <content><![CDATA[
 # ${1:Project Name}
-TODO: This page is my first project at General Assembly's Web Development Intensive, and will serve as a portfolio for all of my future web development projects.
+TODO: This page is my first project at General Assembly's Web Development Intensive, and will serve as a portfolio for all of my future web development projects. Stay tuned for more rojects to be posted!
 
 ## Contributing
 1. Fork it!
