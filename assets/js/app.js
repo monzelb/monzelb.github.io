@@ -12,16 +12,27 @@ var projects = [
 	link: "https://github.com/monzelb/startup-landing-page-clone",
 	description: "A mockup of a fictional company's website using only html and css.",
 	},
-	{name: "Jquery streetfighter",
-	picture: "assets/imgs/street-fighter.png",
-	link: "https://github.com/monzelb/jquery-streetfighter",
-	description:"One of my first endeavors using Jquery to make an interactive webpage."
-	}
+	{name: "Karma",
+  picture:"assets/imgs/karma.png",
+  link: "https://github.com/monzelb/startup-landing-page-clone",
+  description: "A mockup of a fictional company's website using only html and css.",
+  },
+{name: "Karma",
+  picture:"assets/imgs/karma.png",
+  link: "https://github.com/monzelb/startup-landing-page-clone",
+  description: "A mockup of a fictional company's website using only html and css.",
+  },
+{name: "Karma",
+  picture:"assets/imgs/karma.png",
+  link: "https://github.com/monzelb/startup-landing-page-clone",
+  description: "A mockup of a fictional company's website using only html and css.",
+  },
+
 ]
 
-for(var i=0; i<projects.length; i++){
-	$(".row").append(`<div class='` + `projects col-md-4'` + `><h2>` + projects[i].name + `</h2><h5>` + projects[i].description + `</h5><a class='` + `frame'` + ` href='` + projects[i].link + `'><img class= '` + `thumbs'` + `src='` + projects[i].picture + `'></a></div>`);
-}
+// for(var i=0; i<projects.length; i++){
+// 	$(".row").append(`<div class='` + `projects col-md-4'` + `><h2>` + projects[i].name + `</h2><h5>` + projects[i].description + `</h5><a class='` + `fram'` + ` href='` + projects[i].link + `'><img class= '` + `thumbs'` + `src='` + projects[i].picture + `'></a></div><br>`);
+// }
 
 
 $(".right").hover(function(){

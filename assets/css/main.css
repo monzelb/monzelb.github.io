@@ -46,7 +46,7 @@ a {
 .right {
 	float: right;
 	padding: 15px;
-	
+	margin-top: 11px;
 
 }
 
@@ -55,8 +55,8 @@ a {
 	float: left;
 	padding: 15px;
 	background: #D4E7F0;
-	margin: 20px;
-	
+	margin: 10px 20px 20px 20px;
+	line-height:;
 	
 }
 
@@ -142,6 +142,7 @@ img {
 .projects {
 	padding-right: 20px;
 	padding-left: 20px;
+	height:500px;
 }
 
 
@@ -176,7 +177,7 @@ color: black;
  .show-gif {
  	filter: invert(100%);
 	background-image: url("../imgs/giphy.gif"); 
-	opacity: .32;
+	opacity: .52;
 	background-repeat: no-repeat;
 	background-size: 100% 130%;
 	overflow: hidden ;
