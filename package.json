@@ -1,0 +1,19 @@
+{
+  "name": "monzelb.github.io",
+  "version": "1.0.0",
+  "description": "<snippet>   <content><![CDATA[ # ${1:Project Name} TODO: This page is my first project at General Assembly's Web Development Intensive, and will serve as a portfolio for all of my future web development projects. Stay tuned for more rojects to be posted!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/monzelb/monzelb.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/monzelb/monzelb.github.io/issues"
+  },
+  "homepage": "https://github.com/monzelb/monzelb.github.io#readme"
+}
