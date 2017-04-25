@@ -35,7 +35,7 @@ var projects = [
 // }
 
 
-$(".right").hover(function(){
+$(".pink").hover(function(){
     $(this).css("background-color", "mistyrose");
     }, function(){
     $(this).css("background-color", "rgba(255, 255, 255, 0.15)");
