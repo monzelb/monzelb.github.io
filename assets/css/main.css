@@ -23,8 +23,12 @@ a {
 	color: white;
 	text-decoration: none !important;
 	display: block;
-	padding: 99px;
 	
+	
+}
+
+.mid-buttons {
+	padding: 80px;
 }
 
 .frame {
@@ -32,15 +36,18 @@ a {
 
 }
 
-.options {
+.options, .options2, .options3 {
 
 	margin: 100px 115px;
 	
 	border: none;
 	color: white;
 	font-size: 20px;
-	
 
+}
+
+.contact-link{
+	color:black;
 }
 
 .right {
@@ -150,8 +157,11 @@ img {
 
 .thumbs {
 	width: 100%;
-	
+	}
 
+.bm {
+	color:black;
+}
 	
 }
 
@@ -182,7 +192,7 @@ img {
 footer {
 	padding: 5px;
 	clear: both;
-
+	text-align:;
 }
 
 
@@ -191,19 +201,46 @@ color: black;
  }
 
  .show-gif {
- 	filter: invert(100%);
-	background-image: url("../imgs/giphy.gif"); 
-	opacity: .52;
+/* 	filter: invert(100%);
+*/	background-image: url("https://media1.giphy.com/media/G1T5M0qT6ZJlu/giphy.gif"); 
+	opacity: .42;
 	background-repeat: no-repeat;
 	background-size: 100% 130%;
 	overflow: hidden ;
 	
  }
 
+  .show-gif2 {
+/* 	filter: invert(100%);
+*/
+	background-image: url("https://media4.giphy.com/media/1300w1HkjihpIY/giphy.gif"); 
+	opacity: .42;
+	background-repeat: no-repeat;
+	background-size: 100% 130%;
+	overflow: hidden ;
+	
+ }
+
+  .show-gif3 {
+/* 	filter: invert(100%);
+*/	background-image: url("../imgs/giphy.gif"); 
+	opacity: .62;
+	background-repeat: no-repeat;
+	background-size: 100% 130%;
+	overflow: hidden ;
+	
+ }
+
+
+ 
+
 .sub-header{
 	text-align:center;
 	margin: 50px;
 	color: white;
-	
+	border: 2px solid white;
+	border-left:none;
+	border-right:none;
+	padding: 20px;
 }
 
