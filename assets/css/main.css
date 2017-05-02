@@ -199,6 +199,13 @@ img {
 
 }
 
+@media only screen and (max-width: 430px) {
+    .links {
+    	display: none;
+    }
+
+}
+
 	
 
 .middle {
