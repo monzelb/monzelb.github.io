@@ -54,42 +54,42 @@ $(".pink").hover(function(){
 });
 
 
-$(".mid-buttons1 ").mouseover(function(){
-    $(this).css("color", "black");
-});
-$(".mid-buttons1 ").mouseout(function(){
-    $(this).css("color", "white");
+// $(".mid-buttons ").mouseover(function(){
+//     $(this).css("background-color", "rgba(255, 255, 255, .20)");
+// });
+// $(".mid-buttons ").mouseout(function(){
+//     $(this).css("background-color", "rgba(255, 255, 255, .15)");
 
-});
+// });
 
 $(".about").hide();
 
 
 
-$(".options").hover(function(){
-	$(this).addClass("show-gif");
-}, function(){
-	$(this).removeClass("show-gif");
-});
+// $(".options").hover(function(){
+// 	$(this).addClass("show-gif");
+// }, function(){
+// 	$(this).removeClass("show-gif");
+// });
 
-$(".options2").hover(function(){
-  $(this).addClass("show-gif2");
-}, function(){
-  $(this).removeClass("show-gif2");
-});
+// $(".options2").hover(function(){
+//   $(this).addClass("show-gif2");
+// }, function(){
+//   $(this).removeClass("show-gif2");
+// });
 
-$(".options3").hover(function(){
-  $(this).addClass("show-gif3");
-}, function(){
-  $(this).removeClass("show-gif3");
-});
+// $(".options3").hover(function(){
+//   $(this).addClass("show-gif3");
+// }, function(){
+//   $(this).removeClass("show-gif3");
+// });
 
-$(".mid-buttons3").mouseover(function(){
-    $(".about").show();
-});
-$(".mid-buttons3").mouseout(function(){
-    $(".about").hide();
-});
+// $(".mid-buttons3").mouseover(function(){
+//     $(".about").show();
+// });
+// $(".mid-buttons3").mouseout(function(){
+//     $(".about").hide();
+// });
 
 
   
