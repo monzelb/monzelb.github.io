@@ -84,9 +84,10 @@ $(".about").hide();
 //   $(this).removeClass("show-gif3");
 // });
 
-// $(".mid-buttons3").mouseover(function(){
-//     $(".about").show();
-// });
+$(".mid-buttons3").click(function(){
+    $(".about").toggle(150);
+
+});
 // $(".mid-buttons3").mouseout(function(){
 //     $(".about").hide();
 // });

@@ -214,7 +214,7 @@ img {
 	right:0;
 	margin-left:auto;
 	margin-right:auto;
-	margin-top: 10px;
+	margin-top: 150px;
 }
 
 footer {
@@ -270,13 +270,17 @@ color: black;
 }
 
 .about {
-	color: white ;
+	color: #373c5d;
+	opacity: .85;
 }
-
 .paragraph {
 	height: 80px;
 }
 
 .col-sm-6 {
 	margin-top:40px;
+}
+
+.ul-main {
+	margin-top: 100px;
 }
