@@ -63,7 +63,7 @@ a {
 }
 
 .left,  .links {
-	animation: pulse 60s infinite alternate;
+	animation: pulse 600s infinite alternate;
 	float: left;
 	padding: 15px !important;
 	background: #D4E7F0;
@@ -78,7 +78,7 @@ a {
 .left2 {
 	margin: 20px 20px 20px 20px !important;
 	float: left;
-	animation: pulse 60s infinite alternate;
+	animation: pulse 600s infinite alternate;
 	background: #D4E7F0;
 	font-size: 14px !important;
 	padding: 15px !important;
