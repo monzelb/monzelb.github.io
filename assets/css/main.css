@@ -1,6 +1,6 @@
 	body {
-/*	animation: pulse 60s infinite alternate;
-*/	font-family: "Karla","helvetica",sans-serif !important;
+	animation: pulse 60s infinite alternate;
+	font-family: "Karla","helvetica",sans-serif !important;
 	font-weight: 700;
 	font-size: .75rem;
 	color: #111;
@@ -44,7 +44,6 @@ a {
 .options, .options2, .options3 {
 
 	margin: 100px 115px;
-	
 	border: none;
 	color: white;
 	font-size: 20px;
